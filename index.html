@@ -1,62 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Makeshift Menu</title>
+    <title>Document</title>
 </head>
-
 <body>
-    <h1 class="title">Menu ~ Delicious Carb Indulgences</h1>
-
-    <main class="main">
-
-        <ul class="food-category">
-            <label class="category">Starters</label>
-            <li class="food-item">Quiche</li>
-            <li class="food-item">Bread and dips</li>
-            <li class="food-item">All the pies</li>
+    <section>
+    <h1> Menu ~ Delicious Carb Indulgences</h1>
+    <div class="menu">
+        <h2>Starters</h2>
+        <ul>
+            <li>Quiche</li>
+            <li>Bread and dips</li>
+            <li>All the pies</li>
         </ul>
-
-        <ul class="food-category">
-            <label class="category">Mains</label>
-            <li class="food-item">Pizza</li>
-            <li class="food-item">Pasta</li>
-            <li class="food-item">Pie</li>
-        </ul>
-
-        <ul class="food-category">
-            <label class="category">Desserts</label>
-            <li class="food-item">Chocolate cake</li>
-            <li class="food-item">Strawberry pie</li>
-            <li class="food-item">Cheese cake</li>
-        </ul>
-    </main>
-    <section class="allergy-warning">
-        <h3 id="warning">All foods here contain gluten. Sorry...And also:</h3>
-        <ul class="allergies">
-            <li class="allergy-info">eggs</li>
-            <li class="allergy-info">nuts</li>
-            <li class="allergy-info">fish</li>
-            <li class="allergy-info">milk</li>
-            <li class="allergy-info">soy</li>
-            <li class="allergy-info">shellfish</li>
-        </ul>
-    </section>
-    <footer class="footer">
-        <section class="food-desc">
-            <h3>Delicious</h3>
-        </section>
-        <section class="food-desc">
-            <h3>Fresh</h3>
-        </section>
-        <section class="food-desc">
-            <h3>Tasty</h3>
-        </section>
-    </footer>
+    </div>
+    <div class="menu" id="menu2">
+            <h2>Mains</h2>
+            <ul>
+                <li>Pizza</li>
+                <li>Pasta</li>
+                <li>Pie</li>
+            </ul>
+        </div>
+        <div class="menu" id="menu3" onclick="chengeColor()">
+                <h2>Desserts</h2>
+                <ul>
+                    <li>Chocolate cake</li>
+                    <li>Strawberry pie</li>
+                    <li>Cheese cake</li>
+                </ul>
+            </div>
+        
+      
+    </section>  
+    <h1> All foods here contains gluten. Sorry...And also: </h1>
+    <ul class="list">
+            <li class="a">eggs</li>
+            <li class="b">nuts</li>
+            <li class="a">fish</li>
+            <li class="b">fish</li>
+            <li class="a">soy</li>
+            <li class="b">shelfish</li>
+            
+        </ul> 
+    <div class="submenu">
+    <div class="circle"><h3>Delicious</h3>  </div>
+    <div class="circle"><h3>Fresh</h3> </div>
+    <div class="circle"><h3>Tasty</h3></div>
+    </div>
+    <script src="main.js"></script>
 </body>
-<script src="index.js"></script>
-
 </html>
